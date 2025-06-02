@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám phá Câu lạc bộ 5 Giờ Sáng</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-color: #f8f7f4;
+            color: #1c1c1c;
+        }
+        .nav-link {
+            position: relative;
+            transition: color 0.3s;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #d97706;
+            transition: width 0.3s;
+        }
+        .nav-link.active, .nav-link:hover {
+            color: #d97706;
+        }
+        .nav-link.active::after, .nav-link:hover::after {
+            width: 100%;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle, rgba(251, 237, 215, 0.5) 0%, rgba(248, 247, 244, 0) 60%);
+        }
+        .card-hover {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+         @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        [data-tab-content] {
+            display: none;
+        }
+        .active[data-tab-content] {
+            display: block;
+        }
+        .tab.active {
+            background-color: #f59e0b;
+            color: white;
+        }
+        .step-item.active {
+             border-color: #f59e0b;
+             transform: scale(1.05);
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+    <header id="header" class="bg-stone-50/80 backdrop-blur-lg sticky top-0 z-50 transition-shadow duration-300">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <a href="#home" class="text-xl font-bold text-amber-700">5 AM Club</a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#concept" class="nav-link">Khái niệm</a>
+                    <a href="#formula" class="nav-link">Công thức 20/20/20</a>
+                    <a href="#benefits" class="nav-link">Lợi ích</a>
+                    <a href="#journey" class="nav-link">Hành trình</a>
+                    <a href="#nuances" class="nav-link">Lưu ý</a>
+                </div>
+                <a href="#journey" class="hidden md:inline-block bg-amber-600 text-white font-semibold px-5 py-2 rounded-full hover:bg-amber-700 transition-colors">Bắt đầu hành trình</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="relative min-h-screen flex items-center justify-center text-center overflow-hidden">
+            <div class="absolute inset-0 hero-gradient"></div>
+            <div class="container mx-auto px-4 z-10 fade-in">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Chào mừng đến với <span class="text-amber-700">Câu lạc bộ 5 giờ sáng</span></h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto text-stone-600 mb-8">Đây không phải một lớp học. Đây là một triết lý sống để làm chủ buổi sáng, nâng tầm cuộc sống của bạn.</p>
+                <a href="#concept" class="bg-amber-600 text-white font-bold px-8 py-4 rounded-full hover:bg-amber-700 transition-all duration-300 text-lg shadow-lg hover:shadow-xl">Khám Phá Triết Lý</a>
+            </div>
+        </section>
+
+        <section id="concept" class="py-20 bg-white">
+            <div class="container mx-auto px-4 fade-in">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">"5 AM Club" thực chất là gì?</h2>
+                    <p class="max-w-2xl mx-auto text-stone-600">Để hiểu rõ, chúng ta cần phân biệt giữa triết lý cốt lõi và những cách diễn giải thương mại. Bạn gái của bạn đã đúng khi nhấn mạnh rằng đây là một khái niệm về thói quen cá nhân.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm border border-stone-200">
+                        <h3 class="text-2xl font-semibold text-amber-700 mb-4">Một Triết Lý & Lối Sống</h3>
+                        <p class="text-stone-600">Về cơ bản, "Câu lạc bộ 5 giờ sáng" là một **khái niệm** và **lựa chọn lối sống** được phổ biến bởi Robin Sharma. Nó nói về việc tự giác thức dậy lúc 5 giờ sáng để dành giờ đầu tiên trong ngày cho việc phát triển bản thân. Chữ "Câu lạc bộ" chỉ mang tính ẩn dụ, ám chỉ một cộng đồng những người cùng chí hướng.</p>
+                    </div>
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm border border-stone-200">
+                        <h3 class="text-2xl font-semibold text-amber-700 mb-4">Không Phải Một Lớp Học</h3>
+                        <p class="text-stone-600">Không có một "lớp học" chính thức hay phí thành viên nào để tham gia. Tuy nhiên, sự phổ biến của nó đã dẫn đến việc nhiều bên thứ ba tạo ra các **hội thảo và thử thách** có cấu trúc. Chính điều này đôi khi gây ra hiểu lầm rằng nó là một lớp học có tổ chức.</p>
+                    </div>
+                </div>
+                 <div class="mt-12 text-center p-6 bg-amber-50 rounded-2xl border-l-4 border-amber-500 max-w-4xl mx-auto">
+                    <p class="text-stone-700 font-medium">Nguồn gốc của triết lý này đến từ cuốn sách bán chạy toàn cầu <span class="font-bold text-amber-800">"The 5 AM Club: Own Your Morning. Elevate Your Life"</span> của chuyên gia lãnh đạo Robin Sharma, người đã tư vấn cho các tổ chức như NASA, Nike và Microsoft.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="formula" class="py-20">
+            <div class="container mx-auto px-4 fade-in">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Công Thức 20/20/20: Giờ Vàng Của Bạn</h2>
+                    <p class="max-w-3xl mx-auto text-stone-600">Trọng tâm của triết lý là "Giờ Chiến Thắng" - 60 phút đầu tiên sau khi thức dậy, được chia thành ba khoảng 20 phút. Đây là công thức để tối ưu hóa năng lượng tinh thần và thể chất cho cả ngày.</p>
+                </div>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div class="flex flex-col md:flex-row justify-center mb-8 rounded-full shadow-inner p-2 bg-stone-200">
+                        <button data-tab-target="#move" class="tab active flex-1 text-center font-semibold p-3 rounded-full transition-all duration-300">20 phút: Vận Động</button>
+                        <button data-tab-target="#reflect" class="tab flex-1 text-center font-semibold p-3 rounded-full transition-all duration-300">20 phút: Suy Ngẫm</button>
+                        <button data-tab-target="#grow" class="tab flex-1 text-center font-semibold p-3 rounded-full transition-all duration-300">20 phút: Phát Triển</button>
+                    </div>
+
+                    <div id="tab-content" class="bg-white p-8 md:p-10 rounded-2xl shadow-md min-h-[250px] flex items-center">
+                        <div id="move" data-tab-content class="active">
+                            <h3 class="text-2xl font-bold text-amber-700 mb-3">Vận Động (5:00 - 5:20)</h3>
+                            <p class="text-lg text-stone-600">Bắt đầu ngày mới với 20 phút tập thể dục cường độ cao để đổ mồ hôi. Hoạt động này giúp giảm hormone căng thẳng cortisol, giải phóng BDNF (yếu tố dinh dưỡng thần kinh) để tăng cường chức năng não và cung cấp năng lượng cho cơ thể.</p>
+                            <p class="text-sm text-stone-500 mt-4">Ví dụ: Chạy bộ, HIIT, yoga, đạp xe.</p>
+                        </div>
+                        <div id="reflect" data-tab-content>
+                            <h3 class="text-2xl font-bold text-amber-700 mb-3">Suy Ngẫm (5:20 - 5:40)</h3>
+                            <p class="text-lg text-stone-600">Dành 20 phút cho sự tĩnh lặng: viết nhật ký, thiền định, hoặc lập kế hoạch cho ngày mới. Giai đoạn này giúp bạn có được sự minh mẫn, bình yên trong tâm hồn và kết nối với các mục tiêu quan trọng nhất của mình.</p>
+                            <p class="text-sm text-stone-500 mt-4">Ví dụ: Viết nhật ký, thiền, cầu nguyện, thực hành lòng biết ơn.</p>
+                        </div>
+                        <div id="grow" data-tab-content>
+                           <h3 class="text-2xl font-bold text-amber-700 mb-3">Phát Triển (5:40 - 6:00)</h3>
+                            <p class="text-lg text-stone-600">Đầu tư 20 phút cuối cùng để học hỏi và phát triển bản thân. Đọc sách, nghe podcast, hoặc học một kỹ năng mới. Những cải tiến nhỏ mỗi ngày sẽ tạo nên thành tựu lớn theo thời gian (khái niệm "tích lũy hàng ngày").</p>
+                            <p class="text-sm text-stone-500 mt-4">Ví dụ: Đọc sách, nghe sách nói, học một ngôn ngữ, tham gia khóa học online.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="py-20 bg-white">
+            <div class="container mx-auto px-4 fade-in">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Những Lợi Ích Mang Tính Chuyển Đổi</h2>
+                    <p class="max-w-2xl mx-auto text-stone-600">Áp dụng thói quen dậy sớm không chỉ giúp bạn có thêm thời gian. Nó tạo ra một vòng lặp tích cực, cải thiện toàn diện chất lượng cuộc sống của bạn.</p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="chart-container">
+                        <canvas id="benefitsChart"></canvas>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="p-4 bg-stone-50 rounded-lg">
+                            <h4 class="font-bold text-lg text-amber-800">Năng suất & Tập trung</h4>
+                            <p class="text-stone-600">Khoảng thời gian yên tĩnh buổi sáng giúp bạn hoàn thành công việc quan trọng mà không bị xao nhãng.</p>
+                        </div>
+                         <div class="p-4 bg-stone-50 rounded-lg">
+                            <h4 class="font-bold text-lg text-amber-800">Cải thiện tâm trạng & Giảm căng thẳng</h4>
+                            <p class="text-stone-600">Khởi đầu ngày mới một cách chủ động và bình yên giúp giảm cảm giác vội vã, lo âu.</p>
+                        </div>
+                         <div class="p-4 bg-stone-50 rounded-lg">
+                            <h4 class="font-bold text-lg text-amber-800">Sức khỏe & Kỷ luật</h4>
+                            <p class="text-stone-600">Việc tuân thủ thói quen xây dựng ý chí mạnh mẽ và giúp bạn tối ưu hóa chu kỳ giấc ngủ tự nhiên.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="py-20">
+            <div class="container mx-auto px-4 fade-in">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Hành Trình 66 Ngày Của Bạn</h2>
+                    <p class="max-w-3xl mx-auto text-stone-600">Robin Sharma khẳng định cần 66 ngày để một thói quen mới trở thành tự động. Hành trình này được chia thành 3 giai đoạn. Hãy kiên nhẫn, vì "mọi thay đổi đều khó khăn lúc ban đầu, lộn xộn ở giữa và tuyệt đẹp ở cuối".</p>
+                </div>
+
+                <div class="relative">
+                     <div class="absolute top-1/2 left-0 w-full h-0.5 bg-stone-300 hidden md:block" aria-hidden="true"></div>
+                     <div class="grid md:grid-cols-3 gap-8 text-center relative">
+                        <div class="step-item p-6 bg-white rounded-2xl shadow-md border-t-4 border-stone-200 transition-all duration-300">
+                            <div class="text-3xl font-bold text-amber-600 mb-2">Giai đoạn 1</div>
+                            <h3 class="text-xl font-semibold mb-3">Phá Bỏ (Ngày 1-22)</h3>
+                            <p class="text-stone-600">Đây là giai đoạn khó khăn nhất, khi bạn phải phá vỡ những thói quen cũ và chống lại sự phản kháng của cơ thể và tâm trí.</p>
+                        </div>
+                         <div class="step-item p-6 bg-white rounded-2xl shadow-md border-t-4 border-stone-200 transition-all duration-300">
+                            <div class="text-3xl font-bold text-amber-600 mb-2">Giai đoạn 2</div>
+                            <h3 class="text-xl font-semibold mb-3">Cài Đặt (Ngày 23-44)</h3>
+                            <p class="text-stone-600">Thói quen mới bắt đầu hình thành. Giai đoạn này có thể cảm thấy lộn xộn, không quen thuộc nhưng hãy tiếp tục duy trì.</p>
+                        </div>
+                         <div class="step-item p-6 bg-white rounded-2xl shadow-md border-t-4 border-stone-200 transition-all duration-300">
+                            <div class="text-3xl font-bold text-amber-600 mb-2">Giai đoạn 3</div>
+                            <h3 class="text-xl font-semibold mb-3">Tích Hợp (Ngày 45-66)</h3>
+                            <p class="text-stone-600">Thói quen mới trở thành một phần tự nhiên trong cuộc sống của bạn, đòi hỏi ít nỗ lực ý thức hơn và trở thành bản chất thứ hai.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="nuances" class="py-20 bg-white">
+            <div class="container mx-auto px-4 fade-in">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Những Lưu Ý Quan Trọng</h2>
+                    <p class="max-w-2xl mx-auto text-stone-600">Để thành công, hãy tiếp cận hành trình này với sự thấu hiểu và linh hoạt.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="card-hover bg-stone-50 p-8 rounded-2xl text-center">
+                        <div class="text-4xl mb-4">🌙</div>
+                        <h3 class="text-xl font-semibold mb-2">Giấc Ngủ Là Vua</h3>
+                        <p class="text-stone-600">Dậy sớm không có nghĩa là ngủ ít. Bạn phải đi ngủ sớm hơn để đảm bảo ngủ đủ 7-8 tiếng. Thiếu ngủ sẽ phản tác dụng.</p>
+                    </div>
+                     <div class="card-hover bg-stone-50 p-8 rounded-2xl text-center">
+                        <div class="text-4xl mb-4">🎯</div>
+                        <h3 class="text-xl font-semibold mb-2">Tìm "Lý Do Tại Sao"</h3>
+                        <p class="text-stone-600">Bạn cần một mục đích rõ ràng và mạnh mẽ để duy trì động lực, vượt qua những ngày khó khăn. Hãy tự hỏi: "Tôi làm điều này vì điều gì?"</p>
+                    </div>
+                     <div class="card-hover bg-stone-50 p-8 rounded-2xl text-center">
+                        <div class="text-4xl mb-4">🤸</div>
+                        <h3 class="text-xl font-semibold mb-2">Linh Hoạt Là Chìa Khóa</h3>
+                        <p class="text-stone-600">Nếu 5 giờ sáng không phù hợp, hãy điều chỉnh. Nguyên tắc quan trọng hơn thời gian. Có thể là 6 giờ sáng. Hãy làm cho nó phù hợp với bạn.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-800 text-stone-300 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="font-bold text-lg mb-2">Bắt đầu hành trình làm chủ buổi sáng của bạn ngay hôm nay.</p>
+            <p class="text-sm text-stone-400">Được truyền cảm hứng từ triết lý của Robin Sharma.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chartCtx = document.getElementById('benefitsChart').getContext('2d');
+            const benefitsChart = new Chart(chartCtx, {
+                type: 'radar',
+                data: {
+                    labels: [
+                        'Năng suất', 
+                        'Sự tập trung', 
+                        'Sáng tạo', 
+                        'Sức khỏe', 
+                        'Tâm trạng',
+                        'Kỷ luật'
+                    ],
+                    datasets: [{
+                        label: 'Lợi ích của 5 AM Club',
+                        data: [90, 85, 75, 80, 88, 95],
+                        backgroundColor: 'rgba(217, 119, 6, 0.2)',
+                        borderColor: 'rgba(217, 119, 6, 1)',
+                        borderWidth: 2,
+                        pointBackgroundColor: 'rgba(217, 119, 6, 1)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgba(217, 119, 6, 1)'
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            angleLines: {
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            },
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            },
+                            pointLabels: {
+                                font: {
+                                    size: 14,
+                                    family: "'Be Vietnam Pro', sans-serif"
+                                },
+                                color: '#44403c'
+                            },
+                            ticks: {
+                                backdropColor: 'rgba(248, 247, 244, 0)',
+                                color: '#78716c',
+                                stepSize: 20
+                            },
+                            suggestedMin: 0,
+                            suggestedMax: 100
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                             callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed.r !== null) {
+                                        label += context.parsed.r + '%';
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            const tabs = document.querySelectorAll('[data-tab-target]');
+            const tabContents = document.querySelectorAll('[data-tab-content]');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = document.querySelector(tab.dataset.tabTarget);
+                    
+                    tabContents.forEach(tabContent => {
+                        tabContent.classList.remove('active');
+                    });
+                    tabs.forEach(t => {
+                        t.classList.remove('active');
+                    });
+                    
+                    tab.classList.add('active');
+                    target.classList.add('active');
+                });
+            });
+
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a.nav-link');
+            const header = document.getElementById('header');
+            
+            const observerOptions = {
+                root: null,
+                rootMargin: '-50% 0px -50% 0px',
+                threshold: 0
+            };
+
+            const sectionObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === `#${id}`) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                sectionObserver.observe(section);
+            });
+            
+             window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('shadow-md');
+                } else {
+                    header.classList.remove('shadow-md');
+                }
+            });
+
+            const fadeElements = document.querySelectorAll('.fade-in');
+            const fadeObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            fadeElements.forEach(el => {
+                fadeObserver.observe(el);
+            });
+
+            const stepItems = document.querySelectorAll('.step-item');
+             const stepObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                           entry.target.classList.add('active');
+                        }, index * 200);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            stepItems.forEach(item => {
+                stepObserver.observe(item);
+            });
+        });
+    </script>
+</body>
+</html>
