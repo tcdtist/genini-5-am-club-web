@@ -48,37 +48,11 @@ Mặc dù cấu trúc 20/20/20 là một hướng dẫn mạnh mẽ và được
 
 **Bảng 1: Câu lạc bộ 5 giờ sáng: Thói quen "Giờ Chiến thắng" 20/20/20**
 
-**Khối thời gian**
-
-**Lĩnh vực trọng tâm**
-
-**Mục đích/Lợi ích**
-
-**Ví dụ**
-
-5:00-5:20 sáng
-
-Vận động (Tập thể dục)
-
-Tiếp thêm năng lượng cho cơ thể, giảm hormone căng thẳng (cortisol), giải phóng yếu tố dinh dưỡng thần kinh có nguồn gốc từ não (BDNF) để tăng cường chức năng não và sửa chữa tế bào.
-
-Hoạt động thể chất cường độ cao, đổ mồ hôi, đi bộ nhanh, tập luyện cường độ cao ngắt quãng (HIIT), yoga.
-
-5:20-5:40 sáng
-
-Suy ngẫm (Tự phản tư & Bình tĩnh)
-
-Thúc đẩy sự minh mẫn tinh thần, đạt được sự bình yên sâu sắc, điều chỉnh các giá trị cá nhân, đặt ra mục tiêu hàng ngày, giảm sự lộn xộn trong tâm trí.
-
-Viết nhật ký, thiền định, cầu nguyện, lập kế hoạch chiến lược, suy ngẫm tĩnh lặng, thực hành lòng biết ơn.
-
-5:40-6:00 sáng
-
-Phát triển (Phát triển cá nhân & Học hỏi)
-
-Tiếp thu kỹ năng mới, mở rộng kiến thức, đạt được tiến bộ nhất quán hướng tới mục tiêu dài hạn, hưởng lợi từ "tích lũy hàng ngày".
-
-Đọc sách, nghe podcast/sách nói giáo dục, làm việc trên một dự án cá nhân, học một ngôn ngữ mới, tham gia một khóa học trực tuyến.
+| Khối thời gian       | Lĩnh vực trọng tâm                      | Mục đích/Lợi ích                                                                                                                                                                                                                                    | Ví dụ                                                                                                 |
+| :-------------- | :----------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
+| **5:00-5:20 sáng** | Vận động (Tập thể dục)         | Tiếp thêm năng lượng cho cơ thể, giảm hormone căng thẳng (cortisol), giải phóng yếu tố dinh dưỡng thần kinh có nguồn gốc từ não (BDNF) để tăng cường chức năng não và sửa chữa tế bào.                                                          | Hoạt động thể chất cường độ cao, đổ mồ hôi, đi bộ nhanh, tập luyện cường độ cao ngắt quãng (HIIT), yoga.            |
+| **5:20-5:40 sáng** | Suy ngẫm (Tự phản tư & Bình tĩnh) | Thúc đẩy sự minh mẫn tinh thần, đạt được sự bình yên sâu sắc, điều chỉnh các giá trị cá nhân, đặt ra mục tiêu hàng ngày, giảm sự lộn xộn trong tâm trí.                                                                                       | Viết nhật ký, thiền định, cầu nguyện, lập kế hoạch chiến lược, suy ngẫm tĩnh lặng, thực hành lòng biết ơn.      |
+| **5:40-6:00 sáng** | Phát triển (Phát triển cá nhân & Học hỏi) | Tiếp thu kỹ năng mới, mở rộng kiến thức, đạt được tiến bộ nhất quán hướng tới mục tiêu dài hạn, hưởng lợi từ "tích lũy hàng ngày".                                                                                                        | Đọc sách, nghe podcast/sách nói giáo dục, làm việc trên một dự án cá nhân, học một ngôn ngữ mới, tham gia một khóa học trực tuyến. |
 
 ### **V. Những Lợi ích Chuyển đổi khi Áp dụng Buổi sáng Sớm**
 
@@ -103,33 +77,14 @@ Dưới đây là những lợi ích chính khi tham gia Câu lạc bộ 5 giờ
 
 **Bảng 2: Những Lợi ích Chính khi Áp dụng Câu lạc bộ 5 giờ sáng**
 
-**Danh mục Lợi ích**
-
-**Mô tả**
-
-Năng suất & Tập trung Nâng cao
-
-Có được khoảng thời gian không bị gián đoạn để làm việc chuyên sâu, lập kế hoạch chiến lược và đặt mục tiêu trước khi các yếu tố gây xao nhãng hàng ngày xuất hiện, dẫn đến sản lượng đáng kể.
-
-Minh mẫn Tinh thần & Hiệu suất Nhận thức Cải thiện
-
-Tận dụng giờ cao điểm của hiệu suất nhận thức để suy luận logic tốt hơn, giải quyết vấn đề, giảm sương mù não và tăng cường khả năng sáng tạo.
-
-Giảm Căng thẳng & Cải thiện Tâm trạng
-
-Tận hưởng một khởi đầu ngày mới yên tĩnh, không vội vã, chủ động quản lý các nhiệm vụ và nuôi dưỡng một cái nhìn tích cực, thanh thản hơn, giảm cảm giác choáng ngợp.
-
-Kỷ luật Tự giác & Sức mạnh Ý chí Lớn hơn
-
-Việc tuân thủ thói quen buổi sáng sớm một cách nhất quán xây dựng ý chí và khả năng tự kiểm soát đáng nể, điều này chuyển đổi tích cực sang các lĩnh vực khác của cuộc sống và giúp phá bỏ những thói quen xấu.
-
-Chu kỳ Giấc ngủ Tối ưu & Mức năng lượng
-
-Điều chỉnh giờ đi ngủ để phù hợp với việc dậy sớm giúp điều chỉnh lại nhịp sinh học của bạn, dẫn đến giấc ngủ nhất quán, chất lượng cao hơn và năng lượng bền vững trong suốt cả ngày.
-
-Phát triển Cá nhân & Hạnh phúc Toàn diện
-
-Thời gian dành cho hoạt động thể chất, suy ngẫm và học hỏi góp phần vào hạnh phúc tổng thể trên các khía cạnh tinh thần, cảm xúc, thể chất và tâm linh.
+| Danh mục Lợi ích                | Mô tả                                                                                                                                                                                                                                                                |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Năng suất & Tập trung Nâng cao** | Có được khoảng thời gian không bị gián đoạn để làm việc chuyên sâu, lập kế hoạch chiến lược và đặt mục tiêu trước khi các yếu tố gây xao nhãng hàng ngày xuất hiện, dẫn đến sản lượng đáng kể.                                                                           |
+| **Minh mẫn Tinh thần & Hiệu suất Nhận thức Cải thiện** | Tận dụng giờ cao điểm của hiệu suất nhận thức để suy luận logic tốt hơn, giải quyết vấn đề, giảm sương mù não và tăng cường khả năng sáng tạo.                                                                                                        |
+| **Giảm Căng thẳng & Cải thiện Tâm trạng** | Tận hưởng một khởi đầu ngày mới yên tĩnh, không vội vã, chủ động quản lý các nhiệm vụ và nuôi dưỡng một cái nhìn tích cực, thanh thản hơn, giảm cảm giác choáng ngợp.                                                                                         |
+| **Kỷ luật Tự giác & Sức mạnh Ý chí Lớn hơn** | Việc tuân thủ thói quen buổi sáng sớm một cách nhất quán xây dựng ý chí và khả năng tự kiểm soát đáng nể, điều này chuyển đổi tích cực sang các lĩnh vực khác của cuộc sống và giúp phá bỏ những thói quen xấu.                                           |
+| **Chu kỳ Giấc ngủ Tối ưu & Mức năng lượng** | Điều chỉnh giờ đi ngủ để phù hợp với việc dậy sớm giúp điều chỉnh lại nhịp sinh học của bạn, dẫn đến giấc ngủ nhất quán, chất lượng cao hơn và năng lượng bền vững trong suốt cả ngày.                                                                           |
+| **Phát triển Cá nhân & Hạnh phúc Toàn diện** | Thời gian dành cho hoạt động thể chất, suy ngẫm và học hỏi góp phần vào hạnh phúc tổng thể trên các khía cạnh tinh thần, cảm xúc, thể chất và tâm linh.                                                                                                     |
 
 ### **VI. Các Bước Thực hành để Tham gia và Duy trì Câu lạc bộ 5 giờ sáng**
 
@@ -161,47 +116,14 @@ Duy trì thói quen 5 giờ sáng đòi hỏi động lực nội tại mạnh m
 
 **Bảng 3: Các Bước Thực hành để Thực hiện Thói quen Câu lạc bộ 5 giờ sáng**
 
-**Bước**
-
-**Mô tả**
-
-**Lý do**
-
-Điều chỉnh giờ thức dậy dần dần
-
-Thay vì thay đổi đột ngột, hãy bắt đầu bằng cách thức dậy sớm hơn 15-30 phút mỗi vài ngày cho đến khi bạn đạt được 5 giờ sáng.
-
-Cho phép tâm trí và cơ thể bạn thích nghi chậm rãi, ngăn ngừa sốc, sợ hãi và thất bại tiềm tàng, giúp quá trình chuyển đổi bền vững.
-
-Tối ưu hóa lịch trình giấc ngủ
-
-Tính toán ngược từ thời gian thức dậy 5 giờ sáng mong muốn để đảm bảo bạn có 7-8 giờ ngủ chất lượng; đặt mục tiêu đi ngủ lúc 10 giờ tối một cách nhất quán.
-
-Giấc ngủ đầy đủ là tối quan trọng đối với năng lượng, sự tập trung và sức khỏe; nó ngăn ngừa thiếu ngủ, điều này sẽ làm mất đi những lợi ích của việc dậy sớm.
-
-Thiết lập nghi thức trước khi ngủ
-
-Thực hiện một thói quen buổi tối nhẹ nhàng: ăn bữa cuối cùng sớm, tắt màn hình và tham gia vào các hoạt động thư giãn như đọc sách hoặc trò chuyện.
-
-Chuẩn bị cơ thể và tâm trí bạn cho giấc ngủ sâu, phục hồi, giúp dễ ngủ và thức dậy cảm thấy sảng khoái.
-
-Lập kế hoạch thói quen buổi sáng của bạn
-
-Đêm hôm trước, quyết định các hoạt động 20/20/20 cụ thể của bạn và chuẩn bị mọi thứ cần thiết (ví dụ: quần áo tập luyện, nhật ký, sách).
-
-Giảm thiểu việc đưa ra quyết định buổi sáng và nỗ lực tinh thần, tăng cường sự nhất quán và đảm bảo sử dụng thời gian sớm của bạn một cách có mục đích, hiệu quả.
-
-Xác định mục đích của bạn ("Lý do tại sao")
-
-Trình bày rõ ràng những động lực sâu sắc hơn và mục tiêu dài hạn của bạn khi áp dụng thói quen Câu lạc bộ 5 giờ sáng.
-
-Cung cấp động lực nội tại mạnh mẽ và một tầm nhìn lớn hơn, điều này rất quan trọng để vượt qua những thách thức ban đầu và duy trì thói quen lâu dài.
-
-Áp dụng sự linh hoạt & Tùy chỉnh
-
-Điều chỉnh cấu trúc 20/20/20 và thậm chí thời gian thức dậy chính xác (ví dụ: 6 giờ sáng) để phù hợp với lối sống, trách nhiệm và sở thích cá nhân độc đáo của bạn.
-
-Làm cho thói quen trở nên phù hợp và bền vững cá nhân, ngăn ngừa sự cứng nhắc có thể dẫn đến việc từ bỏ nếu nó không hoàn toàn phù hợp với cuộc sống của bạn.
+| Bước                                | Mô tả                                                                                                                                              | Lý do                                                                                                                                                                     |
+| :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Điều chỉnh giờ thức dậy dần dần** | Thay vì thay đổi đột ngột, hãy bắt đầu bằng cách thức dậy sớm hơn 15-30 phút mỗi vài ngày cho đến khi bạn đạt được 5 giờ sáng.                    | Cho phép tâm trí và cơ thể bạn thích nghi chậm rãi, ngăn ngừa sốc, sợ hãi và thất bại tiềm tàng, giúp quá trình chuyển đổi bền vững.                                   |
+| **Tối ưu hóa lịch trình giấc ngủ** | Tính toán ngược từ thời gian thức dậy 5 giờ sáng mong muốn để đảm bảo bạn có 7-8 giờ ngủ chất lượng; đặt mục tiêu đi ngủ lúc 10 giờ tối một cách nhất quán. | Giấc ngủ đầy đủ là tối quan trọng đối với năng lượng, sự tập trung và sức khỏe; nó ngăn ngừa thiếu ngủ, điều này sẽ làm mất đi những lợi ích của việc dậy sớm.        |
+| **Thiết lập nghi thức trước khi ngủ** | Thực hiện một thói quen buổi tối nhẹ nhàng: ăn bữa cuối cùng sớm, tắt màn hình và tham gia vào các hoạt động thư giãn như đọc sách hoặc trò chuyện. | Chuẩn bị cơ thể và tâm trí bạn cho giấc ngủ sâu, phục hồi, giúp dễ ngủ và thức dậy cảm thấy sảng khoái.                                                                |
+| **Lập kế hoạch thói quen buổi sáng của bạn** | Đêm hôm trước, quyết định các hoạt động 20/20/20 cụ thể của bạn và chuẩn bị mọi thứ cần thiết (ví dụ: quần áo tập luyện, nhật ký, sách). | Giảm thiểu việc đưa ra quyết định buổi sáng và nỗ lực tinh thần, tăng cường sự nhất quán và đảm bảo sử dụng thời gian sớm của bạn một cách có mục đích, hiệu quả.      |
+| **Xác định mục đích của bạn ("Lý do tại sao")** | Trình bày rõ ràng những động lực sâu sắc hơn và mục tiêu dài hạn của bạn khi áp dụng thói quen Câu lạc bộ 5 giờ sáng.                        | Cung cấp động lực nội tại mạnh mẽ và một tầm nhìn lớn hơn, điều này rất quan trọng để vượt qua những thách thức ban đầu và duy trì thói quen lâu dài.                   |
+| **Áp dụng sự linh hoạt & Tùy chỉnh** | Điều chỉnh cấu trúc 20/20/20 và thậm chí thời gian thức dậy chính xác (ví dụ: 6 giờ sáng) để phù hợp với lối sống, trách nhiệm và sở thích cá nhân độc đáo của bạn. | Làm cho thói quen trở nên phù hợp và bền vững cá nhân, ngăn ngừa sự cứng nhắc có thể dẫn đến việc từ bỏ nếu nó không hoàn toàn phù hợp với cuộc sống của bạn.           |
 
 ### **VII. Những Sắc thái và Cân nhắc cho Hành trình của bạn**
 
